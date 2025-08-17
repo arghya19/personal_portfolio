@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./style/home.css" />
+    <script src="https://kit.fontawesome.com/bae69bd79b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./images/logo1.png" alt="logo" class="logo">
+
+                <ul id="menu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+
+
+                <label class="hamburger">
+                    <input type="checkbox" id="hamburger-toggle">
+                    <svg viewBox="0 0 32 32">
+                        <path class="line line-top-bottom"
+                            d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22">
+                        </path>
+                        <path class="line" d="M7 16 27 16"></path>
+                    </svg>
+                </label>
+            </nav>
+
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi, I'm <span>Arghya</span><br>Nath from India, <span>Kolkata</span></h1>
+            </div>
+            <a href="./images/ArghyaNath_cv.pdf" download class="button">
+                <span class="button_lg">
+                    <span class="button_sl"></span>
+                    <span class="button_text">Download CV</span>
+                </span>
+            </a>
+        </div>
+    </div>
+    <!-- -----------about------------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/user.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Hello! I'm Arghya Nath, a passionate and detail-oriented developer based in Kolkata, India. I
+                        recently completed my B.Tech in Electrical Engineering from Techno Main Salt Lake with an 87.7%
+                        score and have also trained as a Full Stack Software Developer from Ramakrishna Mission
+                        Shilpamandira.<br><br>
+
+                        With hands-on experience in web and application development, I’ve built several real-world
+                        projects including LPG booking systems, bus and student management apps, and certificate
+                        registration portals using technologies like ASP.NET (C#), PHP, Java, Python (Tkinter), and
+                        MySQL.<br><br>
+
+                        I’m a quick learner, a strong communicator, and highly motivated to explore the ever-evolving
+                        tech world. My focus lies in building efficient, user-friendly, and scalable software solutions
+                        while constantly expanding my skill set.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <!-- <p class="tab-links" onclick="opentab('experience')">Work Experience</p> -->
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Languages</span><br>HTML, CSS, JavaScript, Python, VB.NET, C#, Java, SQL</li>
+                            <li><span>Databases</span><br>MySQL, Oracle, SQL Server</li>
+                            <li><span>Tools</span><br>Visual Studio, MS Office Suite (Excel, Word, PowerPoint)</li>
+                            <li><span>Others</span><br>Arduino, Android app development, and data visualization in Excel
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>B.Tech in Electrical Engineering - 87.7%</li>
+                            <li><span>2026</span><br>Computer Science Engineering from Ramkrishna Mission Shilpamandira
+                                Computer Centre(pursuing)</li>
+                            <!-- <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Android Apps</li> -->
+                        </ul>
+                    </div>
+                    <!-- <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing web/app interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Android Apps</li>
+                        </ul>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------services------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Building responsive, fast, and scalable web applications using cutting-edge technologies and best
+                        practices.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Creating intuitive and visually stunning user interfaces that deliver exceptional user
+                        experiences across all platforms.</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Developing native and cross-platform mobile and desktop applications that engage users and drive
+                        business growth.</p>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-digital-ocean"></i>
+                    <h2>Digital Strategy</h2>
+                    <p>Crafting comprehensive digital strategies that align technology solutions with your business
+                        objectives.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-suitcase"></i>
+                    <h2>Brand Identity</h2>
+                    <p>Creating cohesive brand identities that resonate with your audience and stand out in the digital
+                        landscape.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-chart-simple"></i>
+                    <h2>Performance Optimization</h2>
+                    <p>Enhancing website and application performance for lightning-fast load times and superior user
+                        satisfaction.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------portfolio---------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <!-- ---------------------------------------------------------- -->
+                <div class="card">
+                    <img src="images/bus_booking.png" class="card-img" />
+                    <div class="card__content">
+                        <p class="card__title">Bus Booking System</p>
+                        <p class="card__description">Developed a dynamic Bus Booking System web application using Java
+                            Server Pages (JSP) for
+                            seamless ticket management and reservations.<br><br><a
+                                href="https://www.linkedin.com/in/arghya-nath-58370b234" target="_blank"><i
+                                    class="fa-solid fa-arrow-up-right-from-square" style="color: #fff;"></i></a></p>
+                    </div>
+                </div>
+                <!-- ---------------------------------------------------------- -->
+                <div class="card">
+                    <img src="images/college_management.png" class="card-img" />
+                    <div class="card__content">
+                        <p class="card__title">College Management System</p>
+                        <p class="card__description">Designed a portal to manage student records, faculty data, and
+                            schedules with secure
+                            login.<br><br><a href="https://www.linkedin.com/in/arghya-nath-58370b234" target="_blank"><i
+                                    class="fa-solid fa-arrow-up-right-from-square" style="color: #fff;"></i></a></p>
+                    </div>
+                </div>
+                <!-- ---------------------------------------------------------- -->
+                <div class="card">
+                    <img src="images/student_management.png" class="card-img" />
+                    <div class="card__content">
+                        <p class="card__title">Student Management System</p>
+                        <p class="card__description">Developed a Windows app to handle student information, attendance,
+                            and result records.<br><br><a href="https://www.linkedin.com/in/arghya-nath-58370b234"
+                                target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"
+                                    style="color: #fff;"></i></a></p>
+                    </div>
+                </div>
+                <!-- ---------------------------------------------------------- -->
+                <div class="card">
+                    <img src="images/bcr_system.png" class="card-img" />
+                    <div class="card__content">
+                        <p class="card__title">Birth Certificate Registration System</p>
+                        <p class="card__description">Built a web app to register and manage birth certificate
+                            applications with admin and user
+                            modules.<br><br><a href="https://www.linkedin.com/in/arghya-nath-58370b234"
+                                target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"
+                                    style="color: #fff;"></i></a></p>
+                    </div>
+                </div>
+                <!-- ---------------------------------------------------------- -->
+                <div class="card">
+                    <img src="images/emp_management.png" class="card-img" />
+                    <div class="card__content">
+                        <p class="card__title">Employee Management System</p>
+                        <p class="card__description">Built a desktop tool to manage employee data (CRUD operations) with
+                            a simple GUI and
+                            SQLite.<br><br><a href="https://www.linkedin.com/in/arghya-nath-58370b234"
+                                target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"
+                                    style="color: #fff;"></i></a></p>
+                    </div>
+                </div>
+                <!-- ---------------------------------------------------------- -->
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <!-- -------------contact--------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope" style="color: #D14836;"></i> arghyanath2000@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume" style="color: #25D366;"></i> +91 8240542798</p>
+                    <div class="social-icons">
+                        <a href="https://x.com/anath1910" target="_blank"><i class="fa-brands fa-twitter"
+                                style="color: #1DA1F2;"></i></a>
+                        <a href="https://www.instagram.com/myself.arghya/" target="_blank"><i class="fab fa-instagram"
+                                style="color: #E1306C;"></i></a>
+                        <a href="https://www.linkedin.com/in/arghya-nath-58370b234" target="_blank"><i
+                                class="fab fa-linkedin" style="color: #0077B5;"></i></a>
+                    </div>
+
+
+                </div>
+                <div class="contact-right">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="1f9c750e-3687-4f61-8e8c-e41ff83bc139">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+
+                        <div class="button-container">
+                            <button type="submit" class="cssbuttons-io-button">
+                                Send
+                                <div class="icon">
+                                    <svg height="24" width="24" viewBox="0 0 24 24">
+                                        <path d="M0 0h24v24H0z" fill="none"></path>
+                                        <path
+                                            d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                                            fill="currentColor"></path>
+                                    </svg>
+                                </div>
+                            </button>
+
+                            <button type="reset" class="cssbuttons-io-button clear-button">
+                                Clear
+                                <div class="icon">
+                                    <svg height="24" width="24" viewBox="0 0 24 24">
+                                        <path d="M0 0h24v24H0z" fill="none" />
+                                        <path
+                                            d="M18.3 5.71L12 12l6.3 6.29-1.42 1.42L12 14.83l-6.29 6.3-1.42-1.42L10.59 12 4.29 5.71 5.71 4.29 12 10.59l6.29-6.3z"
+                                            fill="currentColor" />
+                                    </svg>
+                                </div>
+                            </button>
+                        </div>
+
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#header" class="button-back">
+        <svg class="svgIcon-back" viewBox="0 0 384 512">
+            <path
+                d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z">
+            </path>
+        </svg>
+    </a>
+
+    <footer>
+        <div class="copyright">
+            <p>© 2025 Arghya Nath. All rights reserved.
+            </p>
+        </div>
+    </footer>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        const checkbox = document.getElementById('hamburger-toggle');
+        const menu = document.getElementById('menu');
+        checkbox.addEventListener('change', function () {
+            menu.classList.toggle('show', this.checked);
+        });
+        closeBtn.addEventListener('click', function () {
+            menu.classList.remove('show');
+            checkbox.checked = false;
+        });
+    </script>
+</body>
+
+</html>
